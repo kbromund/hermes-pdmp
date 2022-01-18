@@ -1,6 +1,6 @@
-# Introduction
+# 1 Introduction
 
-## Purpose
+## 1.1 Purpose
 
 This document describes the Project Data Management Plan (PDMP) for the Heliophysics Environmental and Radiation Measurement Experiment Suite (HERMES). HERMES is a suite of four instruments that will be hosted on the Gateway space station. Gateway will be launched into an orbit near the Moon to support crewed missions to the Moon. This PDMP is the interface document between NASA, the mission systems, and the instrument teams that describes the science and ancillary data associated with the mission and how the data will be produced and managed. This document describes how the mission will meet the HERMES Level 1 requirements that address the preparation and distribution of processed science data for the public.
 
