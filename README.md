@@ -2,6 +2,7 @@
 This is the HERMES Project Data Management plan.
 
 Section
+* [0 - Title](1-Title.md)
 * [1 - Introduction](1-Introduction.md)
 * [2 - Project Overview](2-Project%20Overview.md)
 * [3 - HERMES Ground System](3-HERMES%20Ground%20System.md)
