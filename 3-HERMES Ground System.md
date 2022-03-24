@@ -71,7 +71,7 @@ The institutions listed in the table below have responsibility for each of the H
 
 Table 3-1. HERMES Instrument Team Facilities (ITF)
 | Investigation                                                                    | Managing Institution                                                   | Point of Contact |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------- |  |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------- |
 | Electron Electrostatic Analyzer (EEA)                                            | Goddard Space Flight Center (GSFC)                                     | D. Gershman      |
 | Noise Eliminating Magnetometer Instrument in a Small Integrated System (NEMISIS) | Goddard Space Flight Center (GSFC)                                     | E. Zesta         |
 | Miniaturized Electron pRoton Telescope (MERiT)                                   | Goddard Space Flight Center (GSFC)                                     | S. Kanekal       |
