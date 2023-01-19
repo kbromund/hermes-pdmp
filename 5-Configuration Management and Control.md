@@ -4,7 +4,7 @@ Configuration Management (CM) establishes and maintains the integrity of HERMES 
 Configuration Control is the systematic proposal, justification, evaluation, coordination, and approval or disapproval of changes. Configuration Control also includes the implementation of all approved changes to the baseline. The Configuration Control process includes identification of proposed changes, documentation of proposed changes, evaluation and disposition of proposed changes, and integration of approved changes.
 Configuration management for the project is further described below.
 
-##5.1 Document Configuration Management
+## 5.1 Document Configuration Management
 Changes proposed to HERMES Ground Segment process plans and procedures will be documented via Configuration Change Requests (CCRs). The HERMES Ground Segment will utilize a Living with a Star (LWS) provided CM and library system, TDMS. This capability is currently accessible via the internal network at GSFC and provides:
 * Document Configuration Management
 * Action Item Management
