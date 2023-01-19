@@ -15,7 +15,7 @@ The CM system provides the capability to generate a Configuration Change Request
 The CCB is a board composed of technical and administrative representatives who approve or disapprove proposed configuration changes to an “Approved Baseline”. While the HERMES project also holds its own separate project-wide CCB, the Ground Segment will also hold its own Ground-Segment CCB with the appropriate ground element team members.
 The Ground Segment CCB will be chaired by the HERMES Ground Segment Manager and will consist of lead representatives from the HERMES MOC, the HERMES SOC, HERMES ITFs, and HERMES Project Science Office.
 
-##5.3 Version Control
+## 5.3 Version Control
 The HERMES GS will maintain both an issue tracking and version control system for its data production software, processing environment, analysis tools, data products and static calibration data. The SOC will maintain the repository of reference and will provide this functionality.
 
 ### 5.3.1 Software Version Control
