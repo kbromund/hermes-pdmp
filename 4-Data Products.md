@@ -63,14 +63,11 @@ Table 4-4. EEA Data Products
 Table 4-5. NEMISIS Data Products
 |Data Level | Product | Description |
 |-|-|-|
-|1|Vector Magnetic Field from 3 sensors (M0, M1, M2) in spacecraft coordinates|CCSDS, each packet is 4-sec long at 10 Hz rate, 3-axis magnetic field components for all three sensors in coordinate system native to the HERMES Payload|
-|1|Sensor Temperatures|Temperatures at M0, M1, M2
-|1|Housekeeping Flags|TBD|
-|2|Vector Magnetic Field from 3 sensors (M0, M1, M2) in GSE coordinates|3d vector magnetic fields (Bx, By, Bz) in nT for each magnetometer (M0, M1, M2) using final calibrations for offsets and gains
-|Sensor Temperatures|final values for temperatures in
-|3|Magnetic field at Gateway|Background-subtracted and processed 3d vector magnetic field (Bx, By, Bz) in nT in a common coordinate system (e.g. GSE). Derived by combining individual sensor data.|
+|1|Vector Magnetic Field from 3 sensors in engineering units and instrument coordinates|3-axis magnetic field in engineering units (pseudo-nT) in the native sensor reference frames, for each of the 3 sensors (fluxgate, PNI1, PNI2) at 0.1 second cadence, time tagged relative to J2000 epoch.   The L1 file also includes support data, at a 4 second cadence, including: temperatures at the each of the 3 sensors as well as of the electronics board, instrument operation status and raw timing information.|
+|2|Vector Magnetic Field from 3 sensors in a common reference frame|3-axis magnetic field data at 0.1 second cadence from each of the 3 sensors (fluxgate, PNI1, PNI2) using final calibrations for alignment, offsets and gains in HERMES bus coordinates as well as GSE coordinates.|
+|3|Ambient Vector Magnetic Field|3-axis magnetic field data at 0.1 second cadence in GSE coordinates.  Combines data from the individual sensors to remove background signals obtain a single measurement.|
 |4|TBD|
-|QL|Vector Magnetic Field from 3 sensors (M0, M1, M2) in GSE coordinates (Unvalidated)|Despiked values for 3d vector magnetic fields (Bx, By, Bz) in nT for each magnetometer (M0, M1, M2) in their local coordinate system, plus temperatures in Celsius for each sensor. (and time-corrected and time-checked)
+|QL|Vector Magnetic Field from the fluxgate in GSE coordinates|3-axis vector magnetic field from the fluxgate sensor in GSE coordinates, using predictive attitude information, orthogonalized and converted to nT with a preliminary calibration.|
 |Auxiliary|TDB||
 
 Table 4-6. MERiT Data Products
